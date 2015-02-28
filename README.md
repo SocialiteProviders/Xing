@@ -1,5 +1,11 @@
 # Xing OAuth1 Provider for Laravel Socialite
 
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/SocialiteProviders/Xing.svg?style=flat-square)](https://scrutinizer-ci.com/g/SocialiteProviders/Xing/?branch=master)
+[![Latest Stable Version](https://img.shields.io/packagist/v/socialiteproviders/xing.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/xing)
+[![Total Downloads](https://img.shields.io/packagist/dt/socialiteproviders/xing.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/xing)
+[![Latest Unstable Version](https://img.shields.io/packagist/vpre/socialiteproviders/xing.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/xing)
+[![License](https://img.shields.io/packagist/l/socialiteproviders/xing.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/xing)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Contents
