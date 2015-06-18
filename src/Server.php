@@ -1,4 +1,5 @@
 <?php
+
 namespace SocialiteProviders\Xing;
 
 use Laravel\Socialite\One\User;
@@ -46,12 +47,12 @@ class Server extends BaseServer
     {
         $data = $data['users'][0];
 
-        $user         = new User();
-        $user->id     = $data['id'];
-        $user->name   = $data['display_name'];
-        $user->email  = $data['active_email'];
+        $user = new User();
+        $user->id = $data['id'];
+        $user->name = $data['display_name'];
+        $user->email = $data['active_email'];
         $user->avatar = $data['photo_urls']['size_96x96'];
-        $user->extra  = array_diff_key($data, array_flip([
+        $user->extra = array_diff_key($data, array_flip([
             'id', 'display_name', 'active_email',
         ]));
 

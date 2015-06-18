@@ -1,4 +1,5 @@
 <?php
+
 namespace SocialiteProviders\Xing;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;
